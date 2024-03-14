@@ -100,21 +100,21 @@
 // );
 
 /*--------------------------50-video-----------------*/
-// const button = document.querySelector("button");
-// const ul = document.querySelector("ul");
+const button = document.querySelector("button");
+const ul = document.querySelector("ul");
 // // // ul.remove();
 
-// button.addEventListener("click", () => {
-// //   ul.innerHTML += "<li>Something new text</li>";
-//   const li = document.createElement("li");
-//   li.textContent = "something new text";
-// //   ul.appendChild(li);
-//   ul.prepend(li);
-// });
+button.addEventListener("click", () => {
+//   ul.innerHTML += "<li>Something new text</li>";
+  const li = document.createElement("li");
+  li.textContent = "something new text";
+//   ul.appendChild(li);
+  ul.prepend(li);
+});
 
-// const items = document.querySelectorAll("li");
-// items.forEach((item) => {
-//   item.addEventListener("click", (e) => {
-//     e.target.remove();
-//   });
-// });
+const items = document.querySelectorAll("li");
+items.forEach((item) => {
+  item.addEventListener("click", (e) => {
+    e.target.remove();
+  });
+});
